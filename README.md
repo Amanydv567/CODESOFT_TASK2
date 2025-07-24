@@ -53,7 +53,7 @@ This project uses machine learning to classify Iris flowers into one of three sp
 ## 🧪 Sample Prediction
 
 ```python
-sample_input = [[6.1, 2.8, 4.7, 1.2]]
+sample_input = [[5.1, 3.5, 1.4, 0.2]]]
 scaled_input = scaler.transform(sample_input)
 prediction = knn.predict(scaled_input)
 predicted_species = le.inverse_transform(prediction)
